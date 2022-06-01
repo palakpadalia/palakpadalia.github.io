@@ -92,13 +92,10 @@ form button {
 }
 
 .img-workflow {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    margin-bottom: 20px;
-    margin-top: 3%;
-    height: 275px;
-    width: 550px;
+    margin-top: 70px;
+    padding: 10px;
+    font-size: larger;
+    margin: 0px;
 }
 
 @media only screen and (max-width: 550px) {
@@ -107,19 +104,8 @@ form button {
         margin-right: auto;
         display: flex;
         display: block;
-        width: 380px;
-        height: 365px;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    .img-workflow {
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        display: block;
-        height: 180px;
-        width: 300px;
+        height: 120px;
+        width: 270px;
     }
 }
 
