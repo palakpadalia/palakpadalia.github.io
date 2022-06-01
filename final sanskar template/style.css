@@ -1,0 +1,555 @@
+/**** ------------header------------ ****/
+
+.bg {
+    background-image: url("images/service-now-slide.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+
+.content {
+    color: white;
+    padding-top: 120px;
+    font-weight: bold;
+}
+
+.h1-header {
+    font-weight: bold;
+}
+
+.p {
+    color: rgb(186, 202, 202);
+
+}
+
+form {
+    align-content: flex-end;
+    margin: 80px;
+    margin-bottom: 80px;
+    height: auto;
+    width: auto;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+form input,
+form textarea {
+    border: 0;
+    margin: 5px 0;
+    padding: 15px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 12px;
+}
+
+form button {
+    padding: 15px;
+    background: linear-gradient(121deg, rgba(113, 10, 117, 1) 22%, rgba(195, 19, 153, 1) 100%);
+    color: #fff;
+    font-size: 12px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px auto 0;
+}
+
+/**** ------------header over------------ ****/
+
+
+/**** ------------workflow start------------ ****/
+
+.h1-workflow {
+    margin-top: 50px;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #341566;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+    .h1-workflow {
+        margin-top: 70px;
+        padding: 10px;
+        font-size: xx-large;
+        margin: 0px;
+        font-weight: bold;
+    }
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+.p-text {
+    text-align: center;
+}
+
+.img-workflow {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 3%;
+    height: 275px;
+    width: 550px;
+}
+
+@media only screen and (max-width: 550px) {
+    .img-workflow {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        display: block;
+        width: 380px;
+        height: 365px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .img-workflow {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        display: block;
+        height: 180px;
+        width: 300px;
+    }
+}
+
+.spacer {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/**** ------------workflow over------------ ****/
+
+
+/**** ------------connect with us start------------ ****/
+
+.bg-connect {
+    background: rgb(31, 8, 82);
+    background: linear-gradient(121deg, rgba(31, 8, 82, 1) 0%, rgba(99, 11, 116, 1) 100%);
+}
+
+#img {
+    height: 70%;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+    #img {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        display: block;
+        width: 380px;
+        height: 365px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #img {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        display: block;
+        height: 180px;
+        width: 300px;
+    }
+}
+
+#text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#h2 {
+    color: #2E0249;
+    font-weight: 900;
+}
+
+
+@media only screen and (max-width: 500px) {
+    #h2 {
+        margin-top: 70px;
+        padding: 10px;
+        font-size: xx-large;
+        font-weight: bold;  
+    }
+}
+
+.h3-connect {
+    font-weight: bold;
+}
+
+/**** ------------connect with us end------------ ****/
+
+
+/**** ------------servicenow start------------ ****/
+
+.img-service {
+    height: 70%;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.text-service {
+    padding: auto;
+    margin-top: 5%;
+}
+
+/**** ------------servicenow end------------ ****/
+
+
+/**** ------------why choose us start------------ ****/
+
+.section-chooseus {
+    background: #ecece8;
+    overflow: hidden;
+}
+
+.h1-chooseus {
+    margin: 40px;
+    text-align: center;
+    color: #2E0249;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+    .h1-chooseus {
+        margin-top: 70px;
+        padding: 10px;
+        font-size: xx-large;
+        margin: 0px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+.p-chooseus {
+    text-align: center;
+    color: #2E0249;
+}
+
+.img-chooseus {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 406px;
+    height: 385px;
+}
+
+.chooseus-row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chooseus-card-img-top {
+    width: 240px;
+    height: 140px;
+}
+
+.chooseus-border {
+    border-left: 0.5px solid #a19f9f;
+    border-right: 0.5px solid #a19f9f;
+    margin-bottom: 15px;
+
+}
+
+@media only screen and (max-width: 997px) {
+    .chooseus-border {
+        border-right: none;
+    }
+}
+
+@media only screen and (max-width: 771px) {
+    .chooseus-border {
+        border-left: none;
+    }
+}
+
+@media only screen and (max-width: 997px),
+screen and (min-width: 771px) {
+    .center {
+        text-align: center;
+    }
+
+    #last {
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/**** ------------why choose us end------------ ****/
+
+
+/**** ------------model start------------ ****/
+
+.h1-model {
+
+    padding-top: 50px;
+    color: #341566;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.h1-model-2 {
+    color: #341566;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 15px #888888;
+    height: auto;
+    width: auto;
+    margin: 40px;
+}
+
+.h4-model {
+    color: #341566;
+    text-align: left;
+    font-weight: bold;
+}
+
+.padding {
+    padding-right: 50px;
+}
+
+.img-model {
+    padding: 30px;
+    height: 220px;
+    width: 230px;
+    image-resolution: inherit;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/**** ------------model end------------ ****/
+
+
+/**** ------------clients start------------ ****/
+
+.carousel-img {
+    width: 30%;
+    height: 30%;
+}
+
+.client-bg {
+    background: rgb(31, 8, 82);
+    background: linear-gradient(121deg, rgba(31, 8, 82, 1) 0%, rgba(99, 11, 116, 1) 100%);
+}
+
+.client-text {
+    font-size: xx-small;
+}
+
+.client-h1 {
+    color: #341566;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    text-indent: 0;
+    cursor: pointer;
+    border: #000000;
+    border-radius: 50%;
+    background-color: #341566;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    background-color: #7D1E6A;
+    transition: background-color 0.6s ease;
+}
+
+.profile-pic {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-top: auto;
+}
+
+.profile-text {
+    font-size: small;
+}
+
+h6 {
+    margin-top: 5px;
+}
+
+.card-client {
+    width: 18rem;
+    align-self: center;
+}
+
+@media only screen and(max-width:773px) {
+    .card-client {
+        width: 600px;
+    }
+}
+
+#row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**** ------------clients end------------ ****/
+
+
+/**** ------------help section start------------ ****/
+
+.bg-help {
+    margin-top: 40px;
+    background: rgb(31, 8, 82);
+    background: linear-gradient(121deg, rgba(31, 8, 82, 1) 0%, rgba(76, 6, 89, 1) 100%);
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.img-help {
+    height: fit-content;
+    width: fit-content;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 550px) {
+    .img-help {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        display: block;
+        height: 120px;
+        width: 270px;
+    }
+}
+
+.h3-help {
+    color: white;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.p-help {
+    color: rgb(186, 202, 202);
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+form {
+    margin: 80px;
+    height: auto;
+    width: auto;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+form input,
+form textarea {
+    border: 0;
+    margin: 5px 0;
+    padding: 15px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 12px;
+}
+
+form button {
+    padding: 15px;
+    background: linear-gradient(121deg, rgba(113, 10, 117, 1) 22%, rgba(195, 19, 153, 1) 100%);
+    color: #fff;
+    font-size: 14px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px auto 0;
+}
+
+@media only screen and (max-width: 550px) {
+    form {
+        margin: 25px;
+        font-size: 11px;
+    }
+}
+
+/**** ------------help section end------------ ****/
+
+
+/**** ------------footer start------------ ****/
+
+.logo-footer {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.p-footer {
+    padding: 5px;
+    text-align: center;
+    color: #341566;
+    font-size: 15px;
+}
+
+.border-footer {
+    border-bottom: 1px solid #000000;
+}
+
+.p-footer-2 {
+    padding: 5px;
+    text-align: center;
+    color: #341566;
+    font-size: 12px;
+}
+
+.copyright {
+    width: 100%;
+    height: auto;
+    background-color: #f1eef1;
+    margin-top: 50px;
+}
+
+.copyright p {
+    color: #a19f9f;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+.icon {
+    size: 25px;
+    margin-top: 20px;
+    color: #341566;
+    text-align: center;
+}
+
+/**** ------------footer end------------ ****/
